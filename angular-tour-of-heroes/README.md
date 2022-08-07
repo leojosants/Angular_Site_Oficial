@@ -1,27 +1,25 @@
 # AngularTourOfHeroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+Este tutorial Tour of Heroes fornece uma introdução aos fundamentos do Angular e mostra como:
 
-## Development server
+Configure seu ambiente de desenvolvimento Angular local.
+Use a CLI Angular para desenvolver um aplicativo
+O aplicativo Tour of Heroes que você cria ajuda uma agência de recrutamento a gerenciar seu estábulo de heróis. O aplicativo tem muitos dos recursos que você esperaria encontrar em qualquer aplicativo controlado por dados.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A aplicação finalizada:
 
-## Code scaffolding
+Obtém uma lista de heróis
+Exibe os heróis em uma lista
+Edita os detalhes de um herói selecionado
+Navega entre diferentes visualizações de dados heróicos
+Este tutorial ajuda você a ganhar confiança de que o Angular pode fazer o que você precisar, mostrando como:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Use diretivas Angular para mostrar e ocultar elementos e exibir listas de dados de heróis.
+Crie componentes angulares para exibir detalhes de heróis e mostrar uma variedade de heróis.
+Use vinculação de dados unidirecional para dados somente leitura.
+Adicione campos editáveis ​​para atualizar um modelo com vinculação de dados bidirecional.
+Vincule métodos de componentes a eventos do usuário, como pressionamentos de tecla e cliques.
+Permita que os usuários selecionem um herói de uma lista e editem esse herói na visualização de detalhes.
+Formate dados com pipes .
+Crie um serviço compartilhado para reunir os heróis.
+Use o roteamento para navegar entre diferentes visualizações e seus componentes.

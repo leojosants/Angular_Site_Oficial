@@ -5,16 +5,37 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './emiter.component.html',
   styleUrls: ['./emiter.component.scss']
 })
+
 export class EmiterComponent implements OnInit {
 
-  myNumber: number = 0;
+  title: string = 'title intial';
+
+  title2 = [
+    {
+      name: 'teste1',
+    },
+    {
+      name: 'teste2',
+    },
+    {
+      name: 'teste3',
+    }
+  ]
 
   constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 
-  onChangeNumber() {
-    this.myNumber = Math.floor(Math.random() * 10);
+  onChangeTitle($event: string) {
+    if ($event === 'teste1') {
+      this.title = this.title2[0].name;
+    }
+    else if ($event === 'teste2') {
+      this.title = this.title2[1].name;
+    }
+    else {
+      this.title = this.title2[2].name
+    }
   }
 
 }

@@ -1,8 +1,6 @@
+<div >
 
-<div class="class">
+  <p>O título é: {{title}} </p>
 
-  <h1>O número é: {{myNumber}}</h1>
-
-  <app-change-number (changeNumber)="onChangeNumber()"></app-change-number>
-
+  <app-change-title *ngFor="let item of title2" [title2]="item" (changeTitle)="onChangeTitle($event)"></app-change-title>
 </div>

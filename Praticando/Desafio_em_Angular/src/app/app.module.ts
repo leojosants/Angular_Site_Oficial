@@ -2,24 +2,24 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { FirstComponent } from './components/first/first.component';
-import { ParentDataComponent } from './components/parent-data/parent-data.component';
-import { DirectivesComponent } from './components/directives/directives.component';
-import { IfRenderComponent } from './components/if-render/if-render.component';
-import { EventosComponent } from './components/eventos/eventos.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ButtonComponent } from './components/button/button.component';
+import { MainComponent } from './components/main/main.component';
+import { TechsComponent } from './components/techs/techs.component';
 import { EmiterComponent } from './components/emiter/emiter.component';
-import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ChangeTitleComponent } from './components/change-title/change-title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponent,
-    ParentDataComponent,
-    DirectivesComponent,
-    IfRenderComponent,
-    EventosComponent,
+    FooterComponent,
+    HeaderComponent,
+    ButtonComponent,
+    MainComponent,
+    TechsComponent,
     EmiterComponent,
-    ChangeNumberComponent,
+    ChangeTitleComponent,
   ],
   imports: [
     BrowserModule
